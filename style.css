@@ -1,6 +1,14 @@
-body{
-    background-color: lightblue;
+:root{
+    --branco-principal:#7ad5ff;
+    --cinza-secundario:#C0c0c0;
+    --botao-azul:#5ea0dd;
+    --cor-de-fundo:#07235e;
 }
-h1{
-    color: rgb(88, 9, 141);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
